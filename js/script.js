@@ -20,18 +20,3 @@ function init(){
   intro_sub = document.querySelector('#intro_sub');
 }
 
-function Blog_Write_Post(){
-  var Blog_Post_Info = document.getElementById('blog');
-  var Dummy_Text = `
-  <div class="column-xs-12 column-sm-6 portfolio-item">
-  <a href="#">
-    <figure>
-      <img src="aa">
-      <figcaption>
-        <h3>Project Title</h3>
-        <p style="margin-top: 10px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>    
-      </figcaption>
-    </figure>
-  </a>`;
-  Blog_Post_Info.innerHTML += Dummy_Text;
-}
