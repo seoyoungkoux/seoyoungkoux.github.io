@@ -10,7 +10,7 @@ function SetProfile(){
   document.title =  "Nickname";
   profile_name.innerHTML = "Nicname";
   profile_avatar.src = "./avatar.gif";
-  intro_main.innerHTML = "Title_Intro_Title";
+  intro_main.innerHTML =  "Title_Intro_Title";
   intro_sub.innerHTML = "Photo booth cold-pressed air plant iceland actually single-origin coffee. Tacos kitsch tattooed, trust fund vaporware woke letterpress messenger bag photo booth viral. Vice 8-bit live-edge, iceland scenester next level affogato heirloom banh mi fingerstache you probably haven't heard of them schlitz fashion axe pok pok helvetica. Knausgaard post-ironic ramps mustache lo-fi. Knausgaard subway tile vegan banh mi hoodie VHS wayfarers direct trade williamsburg raclette schlitz enamel pin.";
 }
 function init(){
